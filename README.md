@@ -14,7 +14,7 @@ Katie Gelderman [@katiegelderman](https://github.com/Katiegelderman)
 
 ## Project
 #### Instruction:
-For our project, we must construct a database and query it sufficiently so that we can demonstrate our knowledge of MySQL. We chose to create a database for a tennis club.
+For our project, we were to construct a database and query it sufficiently so that we could demonstrate our knowledge of MySQL. We chose to create a database for a tennis club.
 
 #### Client:
 ChatGPT 4 was the client/owner of the tennis club for whom we built our database. To see our prompt and the response, please visit this link: https://chat.openai.com/share/12733a36-8c47-4f03-92ab-ea641e4d3f43.
