@@ -20,7 +20,7 @@ For our project, we were to construct a database and query it sufficiently so th
 ChatGPT 4 was the client/owner of the tennis club for whom we built our database. To see our prompt and the response, please visit this link: https://chat.openai.com/share/12733a36-8c47-4f03-92ab-ea641e4d3f43.
 
 #### Overview:
-After receiving instructions, we created this overview of the database:
+After consulting our client's response, we spent some time brainstorming and created this overview of the database:
 
 ![Tennis Club Database Overview](https://github.com/noahnbleon/project1/assets/124447378/4fed0a91-73b3-47a5-a6dc-7a502503c7ab)
 
