@@ -17,7 +17,13 @@ Katie Gelderman [@katiegelderman](https://github.com/Katiegelderman)
 For our project, we must construct a database and query it sufficiently so that we can demonstrate our knowledge of MySQL. We chose to create a database for a tennis club.
 
 #### Client:
-ChatGPT 4 was the client/owner of the tennis club for whom we built our database. To see our conversation: https://chat.openai.com/share/12733a36-8c47-4f03-92ab-ea641e4d3f43.
+ChatGPT 4 was the client/owner of the tennis club for whom we built our database. To see our prompt and the response, please visit this link: https://chat.openai.com/share/12733a36-8c47-4f03-92ab-ea641e4d3f43.
+
+#### Overview:
+After receiving instructions, we created this overview of the database:
+
+![Tennis Club Database Overview](https://github.com/noahnbleon/project1/assets/124447378/4fed0a91-73b3-47a5-a6dc-7a502503c7ab)
+
 
 #### Tables:
 ![BILLING TABLE](https://github.com/noahnbleon/project1/assets/124447378/6d4c2512-bc28-412f-9a4a-76e596ded1df)
@@ -47,33 +53,37 @@ ChatGPT 4 was the client/owner of the tennis club for whom we built our database
 ![TRAININGSESSION TABLE](https://github.com/noahnbleon/project1/assets/124447378/9ee5bdff-fec1-4da8-97f1-4f0a097dec24)
 
 #### Queries:
-1. ![How many clay courts does Ace Tennis Club have](https://github.com/noahnbleon/project1/assets/124447378/78c175e5-ad10-4ee0-9d8f-7803cdf9e20d)
+1. 
+![How many clay courts does Ace Tennis Club have](https://github.com/noahnbleon/project1/assets/124447378/78c175e5-ad10-4ee0-9d8f-7803cdf9e20d)
 
-2. ![How many Pro Shop items are in stock (Excluding individual counts)](https://github.com/noahnbleon/project1/assets/124447378/913450e1-bc3e-4f64-9401-309b1e5a87c4)
+2. 
+![How many Pro Shop items are in stock (Excluding individual counts)](https://github.com/noahnbleon/project1/assets/124447378/913450e1-bc3e-4f64-9401-309b1e5a87c4)
 
-3. ![What are the names of the intermediate or advanced coaches who have availability on the weekends (2)](https://github.com/noahnbleon/project1/assets/124447378/fb8ddb17-e661-4326-b969-54e50aeb2398)
+3. 
+![What are the names of the intermediate or advanced coaches who have availability on the weekends (2)](https://github.com/noahnbleon/project1/assets/124447378/fb8ddb17-e661-4326-b969-54e50aeb2398)
 
-4. ![What are the names of the tournament players who have competed in more than 1 tournament](https://github.com/noahnbleon/project1/assets/124447378/b5302974-80a7-42a5-aaca-c47b31d06a39)
+4. 
+![What are the names of the tournament players who have competed in more than 1 tournament](https://github.com/noahnbleon/project1/assets/124447378/b5302974-80a7-42a5-aaca-c47b31d06a39)
 
-5. ![What's the average salary of all employees](https://github.com/noahnbleon/project1/assets/124447378/cde286e6-6a14-40ea-a4e5-f3b5d619c285)
+5. 
+![What's the average salary of all employees](https://github.com/noahnbleon/project1/assets/124447378/cde286e6-6a14-40ea-a4e5-f3b5d619c285)
 
-6. ![What are the names and salaries of our employees that make a salary over the average employee salary](https://github.com/noahnbleon/project1/assets/124447378/579eac26-0068-4e18-aa01-0349f3512afd)
+6. 
+![What are the names and salaries of our employees that make a salary over the average employee salary](https://github.com/noahnbleon/project1/assets/124447378/579eac26-0068-4e18-aa01-0349f3512afd)
 
-7. ![What are the names, dates, and player counts of the tournaments that have five or more players in attendance](https://github.com/noahnbleon/project1/assets/124447378/2e7b8ccb-c5d2-4761-adfc-ba5cb48c3a9d)
+7. 
+![What are the names, dates, and player counts of the tournaments that have five or more players in attendance](https://github.com/noahnbleon/project1/assets/124447378/2e7b8ccb-c5d2-4761-adfc-ba5cb48c3a9d)
    
-8. ![image](https://github.com/noahnbleon/project1/assets/124447378/910b23ae-ee90-46f4-830f-c944bcc151bf)
+8. 
+![image](https://github.com/noahnbleon/project1/assets/124447378/73e93e1f-b303-429a-a6e5-ac2f12c0c988)
 
-9. ![image](https://github.com/noahnbleon/project1/assets/124447378/e1230621-f040-4443-ad44-ac2f8b02da75)
+9. 
+![image](https://github.com/noahnbleon/project1/assets/124447378/e1230621-f040-4443-ad44-ac2f8b02da75)
 
-10. ![image](https://github.com/noahnbleon/project1/assets/124447378/d933d442-ce52-4831-9bb1-3cad713fcce8)
+10. 
+![image](https://github.com/noahnbleon/project1/assets/124447378/d933d442-ce52-4831-9bb1-3cad713fcce8)
 
 
-
-
-
-### Database information
-#### Name:
-cs_g1p1
 
 #### Additional information:
 Each query we've crafted is stored in the database using procedures.
