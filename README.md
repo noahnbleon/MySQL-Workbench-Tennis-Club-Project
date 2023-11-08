@@ -54,8 +54,6 @@ After consulting our client, we spent some time brainstorming and created an ove
 
 #### Queries:
 
--0.0331
-
 <img width="488" alt="Screenshot 2023-11-07 175820" src="https://github.com/noahnbleon/project1/assets/148257298/89d87bbe-c073-4592-8fa3-864a52cabd7b">
 
 1. 
