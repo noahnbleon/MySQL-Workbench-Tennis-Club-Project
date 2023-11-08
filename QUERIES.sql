@@ -1,9 +1,8 @@
 USE cs_g1p1;
 
 
-
 CREATE PROCEDURE Q1countTypesOfCourtsIn(IN aType VARCHAR(10))
-#How many courts are type clay?
+#How many courts are type aType? (where aType can be 'hard', 'grass', or 'clay')
 SELECT COUNT(*) 
 FROM Court
 WHERE courtType = aType;
@@ -78,36 +77,38 @@ CALL Q7();
 
 
 CREATE PROCEDURE Q8()
-#What are the names of tournaments that memberID '5' and '8' have entered?
-SELECT DISTINCT tournamentName
+#What are the names of tournaments that memberID '5' and '8' have entered? (Both must be in attendance for a tournamentName to be returned)
+SELECT tournamentName
 FROM Tournament, TournPlayer
 WHERE TournPlayer.Tournament_tournamentID = Tournament.tournamentID
-AND TournPlayer.Member_memberID IN ('5', '8');
+AND TournPlayer.Member_memberID IN ('5', '8')
+GROUP BY Tournament.tournamentID
+HAVING COUNT(DISTINCT TournPlayer.Member_memberID) = 2;
 
 CALL Q8();
 
 
 
 CREATE PROCEDURE Q9()
-#What are the tournament names, tournament dates, and the count of players for tournaments that are scheduled to occur on or after 2023-01-01 and have at least 5 players registered?
-SELECT tourn.tournamentName, tourn.tournDate, COUNT(tp.playerID) AS playerCount
-FROM Tournament AS tourn
-JOIN TournPlayer AS tp ON tourn.tournamentID = tp.Tournament_tournamentID
-WHERE tourn.tournDate >= '2023-01-01'
-GROUP BY tourn.tournamentName, tourn.tournDate
-HAVING COUNT(tp.playerID) >= 5;
+#What are the tournament names, tournament dates, and the count of players for tournaments that are scheduled to occur on or after 2022-05-05 and have at least 5 players registered?
+SELECT tournamentName, tournDate, COUNT(playerID) AS playerCount
+FROM Tournament
+JOIN TournPlayer ON Tournament.tournamentID = TournPlayer.Tournament_tournamentID
+WHERE tournDate >= '2022-05-05'
+GROUP BY tournamentName, tournDate
+HAVING COUNT(playerID) >= 5;
 
 CALL Q9();
 
 
 
 CREATE PROCEDURE Q10()
-#What are the first and last names of members who have entered at least 2 tournaments, along with the count of distinct tournaments they have entered?
-SELECT m.memberFName, m.memberLName, COUNT(DISTINCT tp.Tournament_tournamentID) AS tournamentsEntered
-FROM Member AS m
-LEFT JOIN TournPlayer AS tp ON m.memberID = tp.Member_memberID
-GROUP BY m.memberID
+#What are the first and last names of members who have entered at least 2 tournaments, along with the count of tournaments they have entered?
+SELECT memberFName, memberLName, COUNT(Tournament_tournamentID) AS tournamentsEntered
+FROM Member
+LEFT JOIN TournPlayer ON Member.memberID = TournPlayer.Member_memberID
+GROUP BY memberID
 HAVING tournamentsEntered >= 2
-ORDER BY m.memberID;
+ORDER BY memberID;
 
 CALL Q10();
