@@ -56,35 +56,37 @@ After consulting our client, we spent some time brainstorming and created an ove
 
 <img width="488" alt="Screenshot 2023-11-07 175820" src="https://github.com/noahnbleon/project1/assets/148257298/89d87bbe-c073-4592-8fa3-864a52cabd7b">
 
-1. 
-![How many clay courts does Ace Tennis Club have](https://github.com/noahnbleon/project1/assets/124447378/78c175e5-ad10-4ee0-9d8f-7803cdf9e20d)
+1. Our first query allows us to see how many courts are one of the three possible court types. As the club grows, this might become useful for scheduling or planning certain types of tennis events, as the different court types offer different pros and cons. \
+![How many courts are type aType](https://github.com/noahnbleon/project1/assets/124447378/b7b4b721-b7ba-4ad6-9d07-039c0022c988)
 
-2. 
+2. Our second query allows the user to assess how many different items the shop has in stock. As management tracks transaction patterns among the Pro Shop customers, it could become important to narrow or widen the available options at the store depending on sales trends. \
 ![How many Pro Shop items are in stock (Excluding individual counts)](https://github.com/noahnbleon/project1/assets/124447378/913450e1-bc3e-4f64-9401-309b1e5a87c4)
 
-3. 
+3. Our third query allows the user an element of customer service. In this way, the database could be used for assisting customers in scheduling their training sessions. \
 ![What are the names of the intermediate or advanced coaches who have availability on the weekends (2)](https://github.com/noahnbleon/project1/assets/124447378/fb8ddb17-e661-4326-b969-54e50aeb2398)
 
-4. 
+4. Our fourth query allows the user to assess who is active in our tournaments. This query and others like it could help management gauge participation. \
 ![What are the names of the tournament players who have competed in more than 1 tournament](https://github.com/noahnbleon/project1/assets/124447378/b5302974-80a7-42a5-aaca-c47b31d06a39)
 
-5. 
+5. Our fifth query allows the user to gauge the average salary of all employees. This could be a useful tool that allows management to make choices based on the data returned. \
 ![What's the average salary of all employees](https://github.com/noahnbleon/project1/assets/124447378/cde286e6-6a14-40ea-a4e5-f3b5d619c285)
 
-6. 
+6. Our sixth query returns information for the employees currently making a salary above the average employee salary, which could be useful in financial planning. \
 ![What are the names and salaries of our employees that make a salary over the average employee salary](https://github.com/noahnbleon/project1/assets/124447378/579eac26-0068-4e18-aa01-0349f3512afd)
 
-7. 
+7. Our seventh query allows the user to track attendance trends to gauge which tournaments are more successful in turnout, and might be used to make assumptions regarding why (ie: alluring name; good time of year or good weather; etc). \
 ![What are the names, dates, and player counts of the tournaments that have five or more players in attendance](https://github.com/noahnbleon/project1/assets/124447378/2e7b8ccb-c5d2-4761-adfc-ba5cb48c3a9d)
    
-8. 
-![image](https://github.com/noahnbleon/project1/assets/124447378/73e93e1f-b303-429a-a6e5-ac2f12c0c988)
+8. Our eighth query allows for cross-checking a member's attendance in a tournament with another member's attendance in the same tournament, to see if there might be any trends in tournament attendance. (For instance, when you run this query with '1' and '4', almost every tournament comes back- perhaps one's attendance impacts the other's desire to come!) \
+![What are the names of tournaments that memberID '5' and '8' have entered (Both must be in attendance for a tournamentName to be returned)](https://github.com/noahnbleon/project1/assets/124447378/1bb4a9dd-1162-4d1a-91a3-4c9d87ba68d6)
 
-9. 
-![image](https://github.com/noahnbleon/project1/assets/124447378/e1230621-f040-4443-ad44-ac2f8b02da75)
 
-10. 
-![image](https://github.com/noahnbleon/project1/assets/124447378/d933d442-ce52-4831-9bb1-3cad713fcce8)
+9. Our ninth query allows the user to check tournament attendance in another novel way to analyze attendance trends over different times. \
+![What are the tournament names, tournament dates, and the count of players for tournaments that are scheduled to occur on or after 2022-05-05 and have at least 5 players registered](https://github.com/noahnbleon/project1/assets/124447378/0953c0e4-86cf-45ea-9487-d85703d1dd71)
+
+
+10. The best for last, our tenth query, is yet another tournament attendance query. This time, we can see the frequency of attendance for all members that have attended at least two tournaments. (The Tournament Analysts at the Ace Tennis Club are rolling in data. They could utilize this data to incentivize attendance; perhaps the member with the most entries in a year might win a prize!)
+![What are the first and last names of members who have entered at least 2 tournaments, along with the count of tournaments they have entered](https://github.com/noahnbleon/project1/assets/124447378/6c23c268-6f91-44bc-8b70-79cb31ec28cd)
 
 
 
