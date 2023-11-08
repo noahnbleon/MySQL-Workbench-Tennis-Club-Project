@@ -56,7 +56,7 @@ After consulting our client, we spent some time brainstorming and created an ove
 
 -0.0331
 
-![image](https://github.com/noahnbleon/project1/assets/148257298/9526c346-cf8e-4fe2-b507-4f707c06cca3)
+<img width="488" alt="Screenshot 2023-11-07 175820" src="https://github.com/noahnbleon/project1/assets/148257298/89d87bbe-c073-4592-8fa3-864a52cabd7b">
 
 1. 
 ![How many clay courts does Ace Tennis Club have](https://github.com/noahnbleon/project1/assets/124447378/78c175e5-ad10-4ee0-9d8f-7803cdf9e20d)
