@@ -53,6 +53,11 @@ After consulting our client, we spent some time brainstorming and created an ove
 ![TRAININGSESSION TABLE](https://github.com/noahnbleon/project1/assets/124447378/9ee5bdff-fec1-4da8-97f1-4f0a097dec24)
 
 #### Queries:
+
+-0.0331
+
+![image](https://github.com/noahnbleon/project1/assets/148257298/9526c346-cf8e-4fe2-b507-4f707c06cca3)
+
 1. 
 ![How many clay courts does Ace Tennis Club have](https://github.com/noahnbleon/project1/assets/124447378/78c175e5-ad10-4ee0-9d8f-7803cdf9e20d)
 
